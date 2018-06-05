@@ -1,7 +1,8 @@
-body {
+body{
+	background-image: url("cover.jpg") ;
+	background-repeat:no-repeat;
+	background-position: center center;
 
-	background-image: url("cover.jpg");
-	position: center;
 }
 
 h1 {
