@@ -1,0 +1,31 @@
+body {
+
+	background-image: url("eli.png");
+
+}
+
+h1 {
+
+	color:  #3C6AB9 ;
+
+}
+
+h2{
+
+	color: #BC8F8F;
+}
+
+div{
+	position: center;
+	background-color:#B22222;
+	color: white; 
+	text-align: center;
+}
+
+.mail {
+
+	text-align: center;
+	background-color: #228B22;
+	color:black;
+	text-align: center;
+}
