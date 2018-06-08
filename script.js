@@ -1,16 +1,15 @@
-function welcome () {
-
-
-	var who= prompt("Is it your first time on our webiste?");
-	if (who=== "yes") {
-
-		alert("Welcome. We hope you will like it. It is built for you");
-	}
-	else if (who==="no") {
-
-		alert("Thank you for coming back. We appreciate your visit");
-	}
-}
-
-welcome();
-
+$(function () {
+    var count = 0;
+    $('.owl-carousel').each(function () {
+        $(this).attr('id', 'owl-demo' + count);
+        $('#owl-demo' + count).owlCarousel({
+            navigation: true,
+            slideSpeed: 300,
+            pagination: true,
+            singleItem: true,
+            autoPlay: 2000,
+            autoHeight: true
+        });
+        count++;
+    });
+});

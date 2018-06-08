@@ -1,40 +1,47 @@
 
 body {
-    height: 100%;
     background-image:url("background.jpg");
+    background-color: white;
+   /* height: 100%;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 
 
 img{
 
-	float:left;
+	float:right;
 	position: relative;
 }
 
 
 h1 {
 
-	color:  #3C6AB9 ;
+	color:  #7a0826 ;
 	text-align: center;
 
 }
 
 h2{
 
-	color: #BC8F8F;
+	color: #1809bf;
 	text-align: center;
 }
 
-div{
+.endtext{
 	position: center;
 	background-color:#B22222;
 	color: white; 
 	text-align: center;
+}
+
+.text{
+
+	color: #4678a0;
+	background-color: white;
 }
 
 .mail {
@@ -43,4 +50,40 @@ div{
 	background-color: #228B22;
 	color:black;
 	text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{margin: auto;font-family: calibri;}
+#slider .container-fluid{
+    padding: 0 15px;
+}
+#slider .slider-inner{
+    padding: 0;
+}
+.slider-inner .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.slider-inner h1{
+    color: purple;
+}
+
+
+
+
+#carousel1 {
+  width:1152px;
+  height:648px;
+  position: center;
+  margin: auto;
+}
+
+#carousel2{
+	 width:527px;
+  	height:671px;
+  	 position: center;
+  	margin: auto;
 }
