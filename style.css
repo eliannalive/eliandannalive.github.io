@@ -1,12 +1,12 @@
 
 body {
-    background-image:url("background.jpg");
-    background-color: white;
-   /* height: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+  background: linear-gradient(to right, red , yellow); 
 }
 
  .navbar {
@@ -18,23 +18,46 @@ body {
 
 img{
 
-	float:right;
-	position: relative;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
 
+.box{
+  float: right;
+  position: relative;
+}
 
 h1 {
 
-	color:  #7a0826 ;
-	text-align: center;
+	 font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
 
 }
 
 h2{
 
-	color: #1809bf;
-	text-align: center;
+  font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
 }
+
+h3 {
+  font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
 
 .jumbotron{
 	position: center;
@@ -45,12 +68,11 @@ h2{
 
 .text{
 
-	color: black;
-	background-color: #0099ff;
-  width:527px;
-  height:671px;
-  position: center;
-  margin: auto;
+	
+    width: 1500px;
+
+    padding: 10px;
+    margin: 0; 
 }
 
 
